@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-    <t t-name="hr_dashboard.dashboard">
+    <t t-name="hr_dashboard2.dashboard">
         <!--View-->
         <div class="hr_dash col-xs-12 col-md-12 col-lg-12 col-sm-8">
             <!--<style type="text/css" t-if="! widget.isFirefox">-->
