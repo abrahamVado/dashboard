@@ -427,6 +427,6 @@ var HrDashboardView = Widget.extend(ControlPanelMixin, {
     },
 
 });
-core.action_registry.add('hr_dashboard.dashboard', HrDashboardView);
+core.action_registry.add('hr_dashboard2.dashboard', HrDashboardView);
 return HrDashboardView
 });
