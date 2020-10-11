@@ -35,7 +35,7 @@ var HrDashboardView = Widget.extend(ControlPanelMixin, {
         this._super(parent, context);
         var employee_data = [];
         var self = this;
-        if (context.tag == 'hr_dashboard.dashboard') {
+        if (context.tag == 'hr_dashboard2.dashboard') {
             self._rpc({
                 model: 'hr.dashboard',
                 method: 'get_employee_info',
@@ -57,7 +57,7 @@ var HrDashboardView = Widget.extend(ControlPanelMixin, {
     render: function() {
         var super_render = this._super;
         var self = this;
-        var hr_dashboard = QWeb.render( 'hr_dashboard.dashboard', {
+        var hr_dashboard = QWeb.render( 'hr_dashboard2.dashboard', {
             widget: self,
         });
         $( ".o_control_panel" ).addClass( "o_hidden" );
