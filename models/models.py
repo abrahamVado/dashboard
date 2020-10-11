@@ -27,7 +27,7 @@ import datetime
 
 
 class HrDashboard(models.Model):
-    _name = 'hr.dashboard'
+    _name = 'hr.dashboard2'
     _description = 'HR Dashboard'
 
     name = fields.Char("")
