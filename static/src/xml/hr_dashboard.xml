@@ -15,6 +15,7 @@
                             <img class="media-object dp img-circle"
                                  t-att-src="'data:image/png;base64,'+widget.employee_data.image"
                                  style="width: 100px;height:100px;"/>
+                                 lologre alavg
                         </a>
                         <div class="media-body">
                             <h4 class="media-heading"><span t-esc="widget.employee_data.display_name"/></h4>
